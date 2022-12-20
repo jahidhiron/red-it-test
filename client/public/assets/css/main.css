@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.container {
+  width: 90%;
+  height: 87vh;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+.top-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-container {
+  margin: 40px 0px;
+  height: 93%;
+}
+.search-input {
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 40%;
+}
+/* Font */
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #aaa;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.image-block {
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 40rem) {
+  .search-input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+  .search-input {
+    width: 70%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 20%;
+  }
+
+  .search-input {
+    width: 50%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_title {
+  color: #aaa;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #aaa;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  margin-right: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.characters {
+  margin-right: 10px;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.characters:hover {
+  color: #0000ee;
+}
+
+.non-underline {
+  margin-right: 10px;
+  border: none;
+  background-color: inherit;
+}
+
+.extra-margin {
+  margin-bottom: 25px;
+}
+.m-r {
+  margin-right: 10px;
+}
+
+.card_btn:hover {
+  color: #555;
+}
+
+.pagination {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.pagination button.active {
+  background-color: #1976d2;
+  color: white;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.disable {
+  background-color: #dddddd !important;
+  color: #aaa !important;
+}

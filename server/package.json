@@ -1,0 +1,30 @@
+{
+  "name": "the-red-it",
+  "version": "1.0.0",
+  "description": "This is a job portal site where people can search their favorite job, apply, show applied job status etc. There are 3 main section and they are candidate, employer & admin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "jahid",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1225.0",
+    "axios": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
