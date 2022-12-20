@@ -1,4 +1,4 @@
-git clone origin git@github.com:jahidhiron/red-it-test.git .
+git clone git@github.com:jahidhiron/red-it-test.git .
 
 ## backend
 
