@@ -8,6 +8,6 @@ npm start <br />
 
 ## frontend
 
-cd client
-npm install
-npm start
+cd client <br />
+npm install <br />
+npm start <br />
