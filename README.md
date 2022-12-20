@@ -2,9 +2,9 @@ git clone origin git@github.com:jahidhiron/red-it-test.git
 
 ## backend server
 
-cd server
-npm install
-npm start
+cd server <br />
+npm install <br />
+npm start <br />
 
 ## frontend
 
