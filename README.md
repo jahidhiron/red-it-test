@@ -1,6 +1,6 @@
 git clone origin git@github.com:jahidhiron/red-it-test.git
 
-## backend server
+## backend
 
 cd server <br />
 npm install <br />
