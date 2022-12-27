@@ -22,6 +22,8 @@ You may use npm or yarn. Like `yarn` and `yarn start` <br />
 `cd client` <br />
 `npm install` <br />
 `npm start` <br />
+<br />
+<br />
 
 # Documentation
 
@@ -42,6 +44,7 @@ Here I have discussed about which technology I have used, and why used. <br />
 1. I have used component based architecture in server side
 2. There are some `extra.json` file which is used to populate data
 3. Axios is used to fetch data from [swapi.io](https://swapi.dev/)
+<br />
 
 ## Client side technology
 
@@ -59,6 +62,7 @@ Here I have discussed about which technology I have used, and why used. <br />
 1. Component based architecture
 2. Right now, I have used only `Public layout`. But if we need then we can use `Private layout` or `Super private layout`
 3. Axios is used to fetch data from `node.js server`
+<br />
 
 ## Decision
 
