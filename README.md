@@ -71,4 +71,4 @@ Here I have discussed about which technology I have used, and why used. <br />
 3. When I have fetched character detail from [swapi.io](https://swapi.dev/) , it provides a json object which some api endpoint. If I again fetch those endpoint then It will not performant. That's why I have used some `extra.json` file to filter those enpoint
 4. I have used `redux-saga` instead of `redux-thunk`. As it provides some effect which gives me more control
 5. Debouncing is used in searching instead of searching for every character
-6. I have used pagination instead of loading all data at a time. Initially I loaded 10 items
+6. I have used pagination instead of loading all data at a time. Initially, it loads 10 items
